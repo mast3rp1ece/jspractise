@@ -1,0 +1,33 @@
+:root {
+	--base: #2a2a2a;
+	--spacing: 10px;
+	--blur: 10px;
+}
+
+body { 
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: gray;
+}
+img {
+	padding: var(--spacing);
+	background: var(--base);
+	filter: blur(var(--blur));
+	max-width: 70vw;
+}
+div {
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 20px 0 50px 0;
+}
+.color {
+	color: var(--base);
+}
+h2 {
+	font-size: 50px;
+}
