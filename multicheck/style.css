@@ -1,0 +1,26 @@
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-style: italic;
+	margin: 0;
+	background: #2a2a2a;
+	padding: 50px;
+	font-size: 20px;
+}
+.check_body {
+	background: whitesmoke;
+	max-width: 50vw;
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px grey;
+}
+.checkbox {
+	padding: 10px;
+	margin: 0 20px;
+}
+.item {
+	display: flex;
+	padding: 10px;
+	box-sizing: border-box;
+	border-bottom: 1px solid grey;
+}
